@@ -171,6 +171,7 @@ h2 {
     box-shadow: 3px 4px 20px 5px rgba(204, 204, 204, 0.25);
     border-radius: 10px;
     padding: 1rem;
+    transition: box-shadow 1s;
 
     // .content {
     //     display: flex;
@@ -202,6 +203,11 @@ h2 {
 
     p {
         color: $card-text-color;
+    }
+
+    &:hover {
+        box-shadow: 0 0 15px 0 rgba(0,0,0,.24);
+        box-shadow: 0px 0px 15px 3px rgba(0, 255, 128, 0.33);
     }
 }
 
