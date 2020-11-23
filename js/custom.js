@@ -20,3 +20,6 @@ var swiper = new Swiper('.swiper-container', {
         shadowOffset: 10,
     }
 });
+
+// AOS
+AOS.init();
